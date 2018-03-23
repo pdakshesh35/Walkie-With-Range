@@ -7,14 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3AF4E5B4021690DFB8113E42 /* Pods_Walkie_With_Range.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B80872F3F386ABCA4866B11F /* Pods_Walkie_With_Range.framework */; };
 		88391B972048D1E500DE3ACA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88391B962048D1E500DE3ACA /* AppDelegate.swift */; };
-		88391B992048D1E500DE3ACA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88391B982048D1E500DE3ACA /* ViewController.swift */; };
+		88391B992048D1E500DE3ACA /* LogInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88391B982048D1E500DE3ACA /* LogInVC.swift */; };
 		88391B9C2048D1E500DE3ACA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88391B9A2048D1E500DE3ACA /* Main.storyboard */; };
 		88391B9F2048D1E500DE3ACA /* Walkie_With_Range.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 88391B9D2048D1E500DE3ACA /* Walkie_With_Range.xcdatamodeld */; };
 		88391BA12048D1E500DE3ACA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88391BA02048D1E500DE3ACA /* Assets.xcassets */; };
 		88391BA42048D1E500DE3ACA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88391BA22048D1E500DE3ACA /* LaunchScreen.storyboard */; };
 		88391BAF2048D1E600DE3ACA /* Walkie_With_RangeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88391BAE2048D1E600DE3ACA /* Walkie_With_RangeTests.swift */; };
 		88391BBA2048D1E600DE3ACA /* Walkie_With_RangeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88391BB92048D1E600DE3ACA /* Walkie_With_RangeUITests.swift */; };
+		88391BCA2048D3C700DE3ACA /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88391BC92048D3C700DE3ACA /* User.swift */; };
+		88391BCC204E0FAE00DE3ACA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 88391BCB204E0FAE00DE3ACA /* GoogleService-Info.plist */; };
+		88391BCE204E15DA00DE3ACA /* UIFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88391BCD204E15DA00DE3ACA /* UIFile.swift */; };
+		88391BD0204E1B6100DE3ACA /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88391BCF204E1B6100DE3ACA /* SignUpVC.swift */; };
+		88391BD2204E265300DE3ACA /* FirebaseQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88391BD1204E265300DE3ACA /* FirebaseQuery.swift */; };
+		88391BD4204E2A3500DE3ACA /* Defaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88391BD3204E2A3500DE3ACA /* Defaults.swift */; };
+		88391BD6204EE08000DE3ACA /* FirebaseKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88391BD5204EE08000DE3ACA /* FirebaseKeys.swift */; };
+		88391BD8204F095600DE3ACA /* UsernameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88391BD7204F095600DE3ACA /* UsernameVC.swift */; };
+		88391BDA204F09A700DE3ACA /* Segues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88391BD9204F09A700DE3ACA /* Segues.swift */; };
+		88DBE36C206095F9008F7E42 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88DBE36B206095F9008F7E42 /* MainVC.swift */; };
+		8999C4E2667994437DF0C8AA /* Pods_Walkie_With_RangeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6778D3B67674EBC9243E0DBC /* Pods_Walkie_With_RangeTests.framework */; };
+		FE1CCF8B35FDC1AF47958163 /* Pods_Walkie_With_RangeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEAD57BCFE909DE3F18F2781 /* Pods_Walkie_With_RangeUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +48,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		217D24EF35DF9A272F18816E /* Pods-Walkie With RangeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Walkie With RangeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Walkie With RangeUITests/Pods-Walkie With RangeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2B2DBB3F63B3F2FD6B604270 /* Pods-Walkie With RangeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Walkie With RangeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Walkie With RangeTests/Pods-Walkie With RangeTests.release.xcconfig"; sourceTree = "<group>"; };
+		43748C07ADFAFB61034743E5 /* Pods-Walkie With RangeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Walkie With RangeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Walkie With RangeUITests/Pods-Walkie With RangeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		445A1102A1925CA6B43F8153 /* Pods-Walkie With Range.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Walkie With Range.release.xcconfig"; path = "Pods/Target Support Files/Pods-Walkie With Range/Pods-Walkie With Range.release.xcconfig"; sourceTree = "<group>"; };
+		6778D3B67674EBC9243E0DBC /* Pods_Walkie_With_RangeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Walkie_With_RangeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		88391B932048D1E500DE3ACA /* Walkie With Range.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Walkie With Range.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		88391B962048D1E500DE3ACA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		88391B982048D1E500DE3ACA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		88391B982048D1E500DE3ACA /* LogInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInVC.swift; sourceTree = "<group>"; };
 		88391B9B2048D1E500DE3ACA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		88391B9E2048D1E500DE3ACA /* Walkie_With_Range.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Walkie_With_Range.xcdatamodel; sourceTree = "<group>"; };
 		88391BA02048D1E500DE3ACA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +67,20 @@
 		88391BB52048D1E600DE3ACA /* Walkie With RangeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Walkie With RangeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		88391BB92048D1E600DE3ACA /* Walkie_With_RangeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Walkie_With_RangeUITests.swift; sourceTree = "<group>"; };
 		88391BBB2048D1E600DE3ACA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88391BC92048D3C700DE3ACA /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		88391BCB204E0FAE00DE3ACA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		88391BCD204E15DA00DE3ACA /* UIFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIFile.swift; sourceTree = "<group>"; };
+		88391BCF204E1B6100DE3ACA /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		88391BD1204E265300DE3ACA /* FirebaseQuery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseQuery.swift; sourceTree = "<group>"; };
+		88391BD3204E2A3500DE3ACA /* Defaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Defaults.swift; sourceTree = "<group>"; };
+		88391BD5204EE08000DE3ACA /* FirebaseKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseKeys.swift; sourceTree = "<group>"; };
+		88391BD7204F095600DE3ACA /* UsernameVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsernameVC.swift; sourceTree = "<group>"; };
+		88391BD9204F09A700DE3ACA /* Segues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Segues.swift; sourceTree = "<group>"; };
+		88DBE36B206095F9008F7E42 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		88DED0CF05CE7509F3FA8914 /* Pods-Walkie With Range.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Walkie With Range.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Walkie With Range/Pods-Walkie With Range.debug.xcconfig"; sourceTree = "<group>"; };
+		AEAD57BCFE909DE3F18F2781 /* Pods_Walkie_With_RangeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Walkie_With_RangeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4D7BC19A865DB21985133B0 /* Pods-Walkie With RangeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Walkie With RangeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Walkie With RangeTests/Pods-Walkie With RangeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B80872F3F386ABCA4866B11F /* Pods_Walkie_With_Range.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Walkie_With_Range.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AF4E5B4021690DFB8113E42 /* Pods_Walkie_With_Range.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8999C4E2667994437DF0C8AA /* Pods_Walkie_With_RangeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +104,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE1CCF8B35FDC1AF47958163 /* Pods_Walkie_With_RangeUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6C89E49BB78ACF7A5E0F3026 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				88DED0CF05CE7509F3FA8914 /* Pods-Walkie With Range.debug.xcconfig */,
+				445A1102A1925CA6B43F8153 /* Pods-Walkie With Range.release.xcconfig */,
+				B4D7BC19A865DB21985133B0 /* Pods-Walkie With RangeTests.debug.xcconfig */,
+				2B2DBB3F63B3F2FD6B604270 /* Pods-Walkie With RangeTests.release.xcconfig */,
+				217D24EF35DF9A272F18816E /* Pods-Walkie With RangeUITests.debug.xcconfig */,
+				43748C07ADFAFB61034743E5 /* Pods-Walkie With RangeUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		88391B8A2048D1E500DE3ACA = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +131,8 @@
 				88391BAD2048D1E600DE3ACA /* Walkie With RangeTests */,
 				88391BB82048D1E600DE3ACA /* Walkie With RangeUITests */,
 				88391B942048D1E500DE3ACA /* Products */,
+				6C89E49BB78ACF7A5E0F3026 /* Pods */,
+				9AFC99DC3325B0B0459B7086 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,8 +149,10 @@
 		88391B952048D1E500DE3ACA /* Walkie With Range */ = {
 			isa = PBXGroup;
 			children = (
+				88391BCB204E0FAE00DE3ACA /* GoogleService-Info.plist */,
+				88391BC82048D38B00DE3ACA /* VC */,
+				88391BC72048D37600DE3ACA /* Models */,
 				88391B962048D1E500DE3ACA /* AppDelegate.swift */,
-				88391B982048D1E500DE3ACA /* ViewController.swift */,
 				88391B9A2048D1E500DE3ACA /* Main.storyboard */,
 				88391BA02048D1E500DE3ACA /* Assets.xcassets */,
 				88391BA22048D1E500DE3ACA /* LaunchScreen.storyboard */,
@@ -128,6 +180,40 @@
 			path = "Walkie With RangeUITests";
 			sourceTree = "<group>";
 		};
+		88391BC72048D37600DE3ACA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				88391BC92048D3C700DE3ACA /* User.swift */,
+				88391BCD204E15DA00DE3ACA /* UIFile.swift */,
+				88391BD1204E265300DE3ACA /* FirebaseQuery.swift */,
+				88391BD3204E2A3500DE3ACA /* Defaults.swift */,
+				88391BD5204EE08000DE3ACA /* FirebaseKeys.swift */,
+				88391BD9204F09A700DE3ACA /* Segues.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		88391BC82048D38B00DE3ACA /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				88391B982048D1E500DE3ACA /* LogInVC.swift */,
+				88391BCF204E1B6100DE3ACA /* SignUpVC.swift */,
+				88391BD7204F095600DE3ACA /* UsernameVC.swift */,
+				88DBE36B206095F9008F7E42 /* MainVC.swift */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		9AFC99DC3325B0B0459B7086 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B80872F3F386ABCA4866B11F /* Pods_Walkie_With_Range.framework */,
+				6778D3B67674EBC9243E0DBC /* Pods_Walkie_With_RangeTests.framework */,
+				AEAD57BCFE909DE3F18F2781 /* Pods_Walkie_With_RangeUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +221,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 88391BBE2048D1E600DE3ACA /* Build configuration list for PBXNativeTarget "Walkie With Range" */;
 			buildPhases = (
+				232181C2B5B34F927BB4A670 /* [CP] Check Pods Manifest.lock */,
 				88391B8F2048D1E500DE3ACA /* Sources */,
 				88391B902048D1E500DE3ACA /* Frameworks */,
 				88391B912048D1E500DE3ACA /* Resources */,
+				7E8D0749F36526B05601CDB4 /* [CP] Embed Pods Frameworks */,
+				6FD9B6041389056577AD8F28 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +241,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 88391BC12048D1E600DE3ACA /* Build configuration list for PBXNativeTarget "Walkie With RangeTests" */;
 			buildPhases = (
+				139570B8254A7737073719A0 /* [CP] Check Pods Manifest.lock */,
 				88391BA62048D1E500DE3ACA /* Sources */,
 				88391BA72048D1E500DE3ACA /* Frameworks */,
 				88391BA82048D1E500DE3ACA /* Resources */,
+				C1528CCB264310AA3B2413C0 /* [CP] Embed Pods Frameworks */,
+				7FB00CED4F8FD91DEEEF8D5A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +262,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 88391BC42048D1E600DE3ACA /* Build configuration list for PBXNativeTarget "Walkie With RangeUITests" */;
 			buildPhases = (
+				C516C1EB11F17253457B18CD /* [CP] Check Pods Manifest.lock */,
 				88391BB12048D1E600DE3ACA /* Sources */,
 				88391BB22048D1E600DE3ACA /* Frameworks */,
 				88391BB32048D1E600DE3ACA /* Resources */,
+				12FAD7158718005853DE1B01 /* [CP] Embed Pods Frameworks */,
+				534D1EB5B884729DF50C499B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -236,6 +331,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				88391BA42048D1E500DE3ACA /* LaunchScreen.storyboard in Resources */,
+				88391BCC204E0FAE00DE3ACA /* GoogleService-Info.plist in Resources */,
 				88391BA12048D1E500DE3ACA /* Assets.xcassets in Resources */,
 				88391B9C2048D1E500DE3ACA /* Main.storyboard in Resources */,
 			);
@@ -257,13 +353,180 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		12FAD7158718005853DE1B01 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Walkie With RangeUITests/Pods-Walkie With RangeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		139570B8254A7737073719A0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Walkie With RangeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		232181C2B5B34F927BB4A670 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Walkie With Range-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		534D1EB5B884729DF50C499B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Walkie With RangeUITests/Pods-Walkie With RangeUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6FD9B6041389056577AD8F28 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Walkie With Range/Pods-Walkie With Range-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E8D0749F36526B05601CDB4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Walkie With Range/Pods-Walkie With Range-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/SCLAlertView/SCLAlertView.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SCLAlertView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Walkie With Range/Pods-Walkie With Range-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7FB00CED4F8FD91DEEEF8D5A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Walkie With RangeTests/Pods-Walkie With RangeTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C1528CCB264310AA3B2413C0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Walkie With RangeTests/Pods-Walkie With RangeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C516C1EB11F17253457B18CD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Walkie With RangeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		88391B8F2048D1E500DE3ACA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88391BD2204E265300DE3ACA /* FirebaseQuery.swift in Sources */,
+				88DBE36C206095F9008F7E42 /* MainVC.swift in Sources */,
+				88391BD4204E2A3500DE3ACA /* Defaults.swift in Sources */,
+				88391BCE204E15DA00DE3ACA /* UIFile.swift in Sources */,
+				88391BD6204EE08000DE3ACA /* FirebaseKeys.swift in Sources */,
+				88391BD8204F095600DE3ACA /* UsernameVC.swift in Sources */,
+				88391BCA2048D3C700DE3ACA /* User.swift in Sources */,
 				88391B9F2048D1E500DE3ACA /* Walkie_With_Range.xcdatamodeld in Sources */,
-				88391B992048D1E500DE3ACA /* ViewController.swift in Sources */,
+				88391B992048D1E500DE3ACA /* LogInVC.swift in Sources */,
+				88391BDA204F09A700DE3ACA /* Segues.swift in Sources */,
+				88391BD0204E1B6100DE3ACA /* SignUpVC.swift in Sources */,
 				88391B972048D1E500DE3ACA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -428,6 +691,7 @@
 		};
 		88391BBF2048D1E600DE3ACA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88DED0CF05CE7509F3FA8914 /* Pods-Walkie With Range.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -443,6 +707,7 @@
 		};
 		88391BC02048D1E600DE3ACA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 445A1102A1925CA6B43F8153 /* Pods-Walkie With Range.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -458,6 +723,7 @@
 		};
 		88391BC22048D1E600DE3ACA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4D7BC19A865DB21985133B0 /* Pods-Walkie With RangeTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -475,6 +741,7 @@
 		};
 		88391BC32048D1E600DE3ACA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B2DBB3F63B3F2FD6B604270 /* Pods-Walkie With RangeTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -492,6 +759,7 @@
 		};
 		88391BC52048D1E600DE3ACA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 217D24EF35DF9A272F18816E /* Pods-Walkie With RangeUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -508,6 +776,7 @@
 		};
 		88391BC62048D1E600DE3ACA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43748C07ADFAFB61034743E5 /* Pods-Walkie With RangeUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
